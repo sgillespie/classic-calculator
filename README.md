@@ -10,4 +10,4 @@ Open `index.html`
 Sean Gillespie <sean@mistersg.net>
 
 # LICENSE
-This project is public domain. See <LICENSE>
+This project is public domain. See [LICENSE](LICENSE)
