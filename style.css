@@ -1,0 +1,72 @@
+#content {
+}
+
+/* Response pane */
+#response {
+  width: 20rem;
+  height: 4rem;
+  background-color: #595959;
+  font-size: 3rem;
+  color: white;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#response span {
+  margin-right: 0.5rem;
+}
+
+/* Rows */
+.row {
+  display: flex;
+  height: 4rem;
+}
+
+/* Row columns */
+.row div {
+  flex-basis: 5rem;
+  border-right: 1px solid #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  /* Children */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* fill in left side of column */
+.row div:first-child, .row button:first-child {
+  border-left: 2px solid #595959;
+}
+
+.row div:last-child, .row button:last-child {
+  border-right: 2px solid #595959;
+}
+
+.row:first-child div, .row:first-child button {
+  border-top: 2px solid #595959;
+}
+
+.row:last-child div, .row:last-child button {
+  border-bottom: 2px solid #595959;
+}
+
+.row .extra {
+  background-color: #e5e5e5;
+}
+
+.row .op {
+  background-color: #ffc966;
+  color: white;
+}
+
+/* Big columns */
+.row .col-2 {
+  flex-basis: 10rem;
+}
