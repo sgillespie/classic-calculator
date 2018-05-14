@@ -59,7 +59,7 @@ function updateResponse(element) {
   // Show an error if we would show more than 9 characters
   if (textContent.length > 9) {
     element.textContent = 'Error';
-  } else if (textContent.length) {
+  } else if (textContent.toString().length) {
     element.textContent = textContent;
   }
 }
